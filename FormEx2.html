@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Form Ex2</title>
+</head>
+
+<body>
+    <form> 
+         
+        <fieldset > 
+            <legend >
+            <p> Login </p> </legend>
+            
+            <label for="Username"> Username*:</label>
+            <input type="text" name="Username*" minlength="4" maxlength="20" required>
+            <br> <br> 
+            <label for="Password"> Password*:</label>
+            <input type="Password" name="Password*" minlength="7" maxlength="15"   required>
+            <br> <br>
+        
+        </fieldset  > 
+             
+ 
+
+    <fieldset> 
+        <legend> 
+            <label for="Gender"> Gender:</label> </legend>
+            <!-- <input type="radio" name="Gender"> <br> <br>  -->
+            <label for="MAle"> Male</label>
+            <input type="radio" name="Gender">
+            <label for="Female"> Female:</label>
+            <input type="radio" name="Gender">     
+    </fieldset>
+
+    <fieldset>
+        <legend> 
+            <label for="Programming Skills"> Programming Skills:</label>
+        </legend>
+        <label for="Java"> Java:</label>
+        <input type="checkbox" name="Programming Skills">  
+        <label for="C++"> C++:</label>
+        <input type="Checkbox" name="Programming Skills" checked>
+        <label for="C"> C:</label>
+        <input type="checkbox" name="Programming Skills"> 
+    </fieldset>
+
+    <fieldset>
+        <legend> 
+            <label for="Fruit"> Fruit:</label>     </legend>
+
+            <select name="Choose a Fruit"> 
+                <option value="Banana">Banana</option> 
+                <option value="Apple">Apple</option> 
+                <option value="Pear">Pear</option> 
+                <option value="MAngo">Mango</option> </select>
+
+            </fieldset>
+
+            <!-- <textarea rows="3" cols="60" placeholder="Enter Text Here"> </textarea> -->
+            <textarea rows="3" cols="60"   Enter Your Comments Here> </textarea> <br> 
+            
+            <input type="SUBMIT" value="SEND"> 
+             <input type="RESET" value="RESET">
+              
+
+    </form>
+
+
+
+
+</body>
+</html>
